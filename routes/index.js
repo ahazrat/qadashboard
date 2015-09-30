@@ -13,7 +13,7 @@ module.exports = function (passport) {
     /* GET login */
     router.get('/', function(req, res, next) {
       res.render('index', {
-          title: 'Express',
+          title: 'John Crane QA Dashboard',
           message: req.flash('message')
       });
     });

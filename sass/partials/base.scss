@@ -1,0 +1,9 @@
+@import '../modules/all';
+
+.curtain {
+    z-index: -1;
+    background-color: $jcyellow;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}

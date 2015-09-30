@@ -1,8 +1,10 @@
 doctype html
 html
   head
+    include partials/head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
   body
+    .curtain
+      p stuff
+    include partials/navbar
     block content
